@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.header {
+    width: 100;
+}
+.menu {
+    background-color: rgb(134, 164, 173);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    width: 1500px;
+    height: 100px;
+    z-index: 2;
+}
+.menu ul li {
+    display: inline-block;
+    
+}
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 10px;
+}
+.main {
+    padding: 50px 0;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(134, 164, 173);
+    height: 565px;
+    border-radius: 2%;
+}
+body {
+    padding-top: 80px;
+}
+h1{
+    color: #FFFFFF;
+}
+h1.miguelito {
+    text-align: center;
+}
+img.IDOLO {
+    position: relative;
+    left: 350px;
+    right: 200px;
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+}
+img.logo {
+    position: fixed;
+    height: 60px;
+    width: 90px;
+    left: 10px;
+    top: 25px;
+    z-index: 3;
+}
